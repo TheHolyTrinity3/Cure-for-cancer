@@ -10,13 +10,13 @@
             --accent: #16a34a;
             --highlight: #f59e0b;
             --warning: #dc2626;
-            --bg: #f8fafc;
-            --card: #ffffff;
+            --bg: #000000;
+            --card: #111111;
         }
         body {
             font-family: 'Inter', 'Segoe UI', Tahoma, sans-serif;
             line-height: 1.6;
-            color: #1e293b;
+            color: #e2e8f0;
             max-width: 950px;
             margin: 0 auto;
             padding: 20px;
@@ -28,50 +28,43 @@
             padding: 4rem 1.5rem;
             text-align: center;
             border-radius: 16px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
             margin-bottom: 30px;
+            border: 1px solid #334155;
         }
-        header h1 { font-size: 3rem; margin-bottom: 10px; text-transform: uppercase; letter-spacing: -1px; }
-        header p { font-size: 1.2rem; color: #94a3b8; max-width: 700px; margin: 0 auto; }
+        header h1 { font-size: 3.5rem; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 2px; }
         
         .main-claim {
-            background-color: #fffbeb;
+            background-color: #1a1a1a;
             border: 2px solid var(--highlight);
             padding: 30px;
             border-radius: 12px;
             margin-bottom: 40px;
-            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
         }
-        .main-claim h2 { 
-            margin-top: 0; 
-            color: #92400e; 
-            text-align: center;
-            text-transform: uppercase;
-        }
+        .main-claim h2 { color: var(--highlight); text-align: center; text-transform: uppercase; }
         
         .container {
             background: var(--card);
             padding: 2.5rem;
             border-radius: 16px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            border: 1px solid #222;
         }
         h2 {
-            color: var(--primary);
+            color: white;
             border-left: 6px solid var(--accent);
             padding-left: 15px;
             margin-top: 40px;
             text-transform: uppercase;
         }
         
-        .table-wrapper { overflow-x: auto; margin: 25px 0; }
-        table { width: 100%; border-collapse: collapse; }
-        th, td { border: 1px solid #e2e8f0; padding: 18px; text-align: center; }
-        th { background-color: #f1f5f9; font-weight: 800; color: var(--primary); }
-        .peak-row { background-color: #fef2f2 !important; font-weight: bold; color: var(--warning); }
+        table { width: 100%; border-collapse: collapse; margin: 25px 0; background: #000; }
+        th, td { border: 1px solid #333; padding: 18px; text-align: center; }
+        th { background-color: #1e293b; color: white; }
+        .peak-row { background-color: #450a0a !important; font-weight: bold; color: #f87171; }
 
         .step-card {
-            background: #f8fafc;
-            border: 1px solid #e2e8f0;
+            background: #1a1a1a;
+            border: 1px solid #333;
             padding: 20px;
             margin-bottom: 20px;
             border-radius: 12px;
@@ -86,15 +79,15 @@
         }
 
         .potency-alert {
-            background-color: #ecfdf5;
-            border: 1px solid var(--accent);
             padding: 20px;
             border-radius: 12px;
             margin: 20px 0;
+            border-left: 5px solid var(--accent);
+            background: #0f172a;
         }
 
         .research-box {
-            background-color: #f1f5f9;
+            background-color: #0f172a;
             border-left: 5px solid #334155;
             padding: 20px;
             margin: 20px 0;
@@ -102,11 +95,11 @@
         }
 
         .history-section {
-            background-color: #f1f5f9;
+            background-color: #111;
             padding: 25px;
             border-radius: 12px;
             margin-top: 40px;
-            border-top: 5px solid var(--primary);
+            border: 1px solid #333;
         }
         .money-trail {
             display: grid;
@@ -115,155 +108,134 @@
             margin-top: 20px;
         }
         .money-card {
-            background: white;
-            padding: 15px;
+            background: #1a1a1a;
+            padding: 20px;
             border-radius: 8px;
-            border: 1px solid #cbd5e1;
+            border: 1px solid #333;
         }
 
         .safety-box {
-            background-color: #fef2f2;
-            color: #991b1b;
+            background-color: #450a0a;
+            color: #fca5a5;
             padding: 25px;
-            border: 1px solid #fecaca;
+            border: 1px solid #991b1b;
             border-radius: 12px;
             margin-top: 50px;
         }
 
-        footer {
-            text-align: center;
-            padding: 40px 0;
-            color: #64748b;
-            font-size: 0.9rem;
-        }
+        footer { text-align: center; padding: 40px 0; color: #475569; }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>The Parasite Cure</h1>
+    <h1>PARASITE CURE</h1>
     <p>THE DEFINITIVE ARCHIVE OF THE 6-DAY INTENSIVE PROTOCOL</p>
 </header>
 
 <div class="main-claim">
-    <h2>The Biological Root of Cancer</h2>
-    <p>According to the research of Dr. Hulda Clark, <strong>Cancer is the result of a specific parasite infection.</strong> The theory states that when the <em>human intestinal fluke</em> migrates to vital organs, it triggers tumors only in the presence of <strong>Isopropyl Alcohol</strong> or <strong>Propanol</strong>.</p>
+    <h2>THE BIOLOGICAL ROOT OF CANCER</h2>
+    <p>According to the research of Dr. Hulda Clark, <strong>Cancer is the result of a specific parasite infection.</strong> The theory states that when the <em>human intestinal fluke</em> migrates to vital organs, it releases growth factors that trigger rapid cell division (tumors).</p>
+    <p>This only occurs when <strong>Isopropyl Alcohol</strong> or <strong>Propanol</strong> is present in the body, which dissolves the parasite's egg shells internally. To heal, one must eradicate the parasites and remove the chemical solvents.</p>
 </div>
 
 <div class="container">
-    <h2>1. The 6-Day Dosage Escalation</h2>
-    <div class="table-wrapper">
-        <table>
-            <thead>
-                <tr>
-                    <th>Day</th>
-                    <th>Wormwood (Caps)</th>
-                    <th>Fresh Clove (Caps)</th>
-                    <th>Green Walnut (Tincture)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr><td>Day 1</td><td>1</td><td>1 (3x daily)</td><td>1 tsp</td></tr>
-                <tr><td>Day 2</td><td>2</td><td>2 (3x daily)</td><td>1 tsp</td></tr>
-                <tr><td>Day 3</td><td>3</td><td>3 (3x daily)</td><td>2 tsp</td></tr>
-                <tr><td>Day 4</td><td>5</td><td>3 (3x daily)</td><td>2 tsp</td></tr>
-                <tr><td>Day 5</td><td>7</td><td>3 (3x daily)</td><td>2 tsp</td></tr>
-                <tr class="peak-row"><td>Day 6 (PEAK)</td><td>9</td><td>3 (3x daily)</td><td>2 tsp</td></tr>
-            </tbody>
-        </table>
+    <h2>1. THE 6-DAY DOSAGE ESCALATION</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>Wormwood (Caps)</th>
+                <th>Fresh Clove (Caps)</th>
+                <th>Green Walnut (Tincture)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Day 1</td><td>1</td><td>1 (3x daily)</td><td>1 tsp</td></tr>
+            <tr><td>Day 2</td><td>2</td><td>2 (3x daily)</td><td>1 tsp</td></tr>
+            <tr><td>Day 3</td><td>3</td><td>3 (3x daily)</td><td>2 tsp</td></tr>
+            <tr><td>Day 4</td><td>5</td><td>3 (3x daily)</td><td>2 tsp</td></tr>
+            <tr><td>Day 5</td><td>7</td><td>3 (3x daily)</td><td>2 tsp</td></tr>
+            <tr class="peak-row"><td>Day 6 (PEAK)</td><td>9</td><td>3 (3x daily)</td><td>2 tsp</td></tr>
+        </tbody>
+    </table>
+
+    <h2>2. EXECUTION: TIMING & MIXING</h2>
+    <div class="step-card">
+        <span class="step-num">1</span> <strong>Empty Stomach:</strong> Take the entire daily dose 30-60 minutes before your largest meal.
+    </div>
+    <div class="step-card">
+        <span class="step-num">2</span> <strong>Mixing the Strike:</strong> Stir the Green Walnut Tincture into 1/2 cup of water. Use this mixture to swallow your Wormwood and Clove capsules.
+    </div>
+    <div class="step-card">
+        <span class="step-num">3</span> <strong>The Flush:</strong> Drink 3-4 liters of water every day of the protocol. This carries the ammonia and "die-off" debris out of your kidneys.
     </div>
 
-    <h2>2. Execution: The "Strike Window" Step-by-Step</h2>
-    <div class="step-card">
-        <span class="step-num">1</span> <strong>The Pre-Strike (Days -3 to -1):</strong> Conduct the Household Audit. Stop using all products with Propanol/Isopropyl to clear the "fuel" from your blood before starting the herbs.
-    </div>
-    <div class="step-card">
-        <span class="step-num">2</span> <strong>Morning Ritual:</strong> Take the entire daily dose together on an <strong>empty stomach</strong>, 30-60 minutes before your largest meal.
-    </div>
-    <div class="step-card">
-        <span class="step-num">3</span> <strong>Mixing:</strong> Stir the Green Walnut Tincture into 1/2 cup of water. Use this liquid to swallow your Wormwood and Clove capsules.
-    </div>
-    <div class="step-card">
-        <span class="step-num">4</span> <strong>Intensive Phase (Days 4-6):</strong> This is the peak of the strike. Most parasite debris (ammonia) is released now. Increase water intake to 3-4 liters and prioritize rest.
-    </div>
-
-    <h2>3. Mandatory Ingredient Standards & Preparation</h2>
-    <div class="potency-alert" style="background-color: #f0f9ff; border-color: #0ea5e9;">
-        <strong>Green Black Walnut Tincture:</strong> 
-        <br><em>Preparation:</em> Harvest black walnuts while the hulls are still green and sticky. Place whole walnuts in a glass jar and cover with 50% grain alcohol. Add Vitamin C powder to prevent oxidation. Must remain <strong>bright green</strong>.
+    <h2>3. TRIPLE THREAT POTENCY RULES</h2>
+    <div class="potency-alert">
+        <strong>Wormwood:</strong> Must be <em>Artemisia absinthium</em> (Flowering Tops). Must be intensely bitter to trigger the gallbladder.
     </div>
     <div class="potency-alert">
-        <strong>Fresh-Ground Cloves:</strong> 
-        <br><em>Preparation:</em> Purchase whole organic clove buds. Grind them in a dedicated grinder and fill 00-size capsules immediately to trap the <strong>Eugenol</strong> gas before it evaporates.
+        <strong>Cloves:</strong> Buy whole buds. Grind them yourself and cap immediately. Pre-ground powder is "dead."
     </div>
-    <div class="potency-alert" style="background-color: #fffbeb; border-color: var(--highlight);">
-        <strong>Wormwood (Artemisia):</strong> 
-        <br><em>Preparation:</em> Use the flowering tops of <em>Artemisia absinthium</em>. Dry in a dark, cool place. Crumble by hand and encapsulate. Must be intensely bitter and greenish-grey.
+    <div class="potency-alert">
+        <strong>Green Walnut:</strong> The tincture MUST be greenish-brown. Black tinctures are oxidized and ineffective.
     </div>
 
-    <h2>4. Blood Sanitation (The "Rad" Alternative)</h2>
+    <h2>4. BLOOD SANITATION (THE "RAD" ALTERNATIVE)</h2>
     <div class="step-card">
         <strong>The Weekly Shock:</strong> To clear the blood without a device, take a maintenance dose of 2 Tablespoons of Green Walnut Tincture once per week.
     </div>
     <div class="step-card">
-        <strong>The Ammonia Scrub:</strong> Use <strong>L-Ornithine</strong> (500mg - 1000mg) to neutralize parasite waste (ammonia) in the blood. This prevents "die-off" sickness and brain fog.
+        <strong>The Ammonia Scrub:</strong> Use <strong>L-Ornithine</strong> to neutralize parasite waste (ammonia) in the blood. This prevents "die-off" sickness.
     </div>
 
-    <h2>5. The Household Audit (The Solvent Search)</h2>
+    <h2>5. ENVIRONMENTAL HIT-LIST (WHAT TO AVOID)</h2>
     <div class="step-card">
-        <p>Before beginning, search your home for any product containing <strong>Isopropanol</strong> or <strong>Propanol</strong>. If you can't eat it, don't put it on your skin.</p>
-        <ul>
-            <li><strong>Bathroom:</strong> Shampoos, conditioners, mouthwash, and lotions.</li>
-            <li><strong>Kitchen:</strong> Bottled water, decaffeinated coffee, and boxed "cold" cereals.</li>
-            <li><strong>Medicine Cabinet:</strong> Antiseptic wipes and vitamin capsules.</li>
-        </ul>
+        <strong>Primary Solvents:</strong> Immediately eliminate all Isopropyl Alcohol and Propanol (check shampoos, body lotions, mouthwash, and cold cereals).
+    </div>
+    <div class="step-card">
+        <strong>The Corn Trap:</strong> Avoid all corn and popcorn. They contain Zearalenone, a mold that paralyzes white blood cells.
+    </div>
+    <div class="step-card">
+        <strong>Industrial Toxins:</strong> Avoid Benzene (found in some flavored waters) and Wood Alcohol (found in diet sodas).
+    </div>
+    <div class="step-card">
+        <strong>Metal Defense:</strong> Dental amalgams (mercury) and gold crowns act as an electrical shield for parasites; aim for metal-free dentistry.
     </div>
 
-    <h2>6. Environmental Hit-List (What to Avoid)</h2>
-    <div class="step-card" style="border-left: 5px solid var(--warning);">
-        <strong>Primary Solvents:</strong> Eliminate all Isopropyl Alcohol and Propanol immediately.
+    <h2>6. POST-STRIKE: TUMOR CLEANUP PROTOCOL</h2>
+    <div class="step-card">
+        <strong>The Enzyme Sweep:</strong> Use high-dose Pancreatin, Bromelain, and Papain on an empty stomach to dissolve the protein coating of the tumor.
     </div>
-    <div class="step-card" style="border-left: 5px solid var(--warning);">
-        <strong>The Corn Trap:</strong> Avoid all corn and popcorn (Zearalenone mold paralyzes white blood cells).
-    </div>
-    <div class="step-card" style="border-left: 5px solid var(--warning);">
-        <strong>Industrial Toxins:</strong> Avoid Benzene and Wood Alcohol (found in many diet sodas).
+    <div class="step-card">
+        <strong>Immune Activation:</strong> High-dose Vitamin C fuels white blood cells to begin "phagocytosis"—the process of digesting dead tumor debris.
     </div>
 
-    <h2>7. Post-Strike: Tumor Cleanup Protocol</h2>
-    <div class="step-card" style="border-left: 5px solid var(--accent);">
-        <strong>The Enzyme Sweep:</strong> Use high-dose <strong>Pancreatin, Bromelain, and Papain</strong> on an empty stomach. These enzymes work to dissolve the protein coating of the tumor, exposing it to the immune system.
-    </div>
-    <div class="step-card" style="border-left: 5px solid var(--accent);">
-        <strong>Immune Activation:</strong> High-dose Vitamin C fuels white blood cells to begin "phagocytosis"—the process of engulfing and digesting dead tumor debris.
-    </div>
-    <div class="step-card" style="border-left: 5px solid var(--accent);">
-        <strong>Metabolic Flush:</strong> Continue 3-4 liters of water daily to move neutralized waste through the lymphatic system for final disposal.
-    </div>
-
-    <h2>8. Verified Biological Research (PubMed/PMC)</h2>
+    <h2>7. VERIFIED BIOLOGICAL RESEARCH (PUBMED/PMC)</h2>
     <div class="research-box">
-        <strong>WORMWOOD (Artemisia):</strong> Peer-reviewed research confirms that Artemisinin disrupts cancer cell mitochondria. Studies show it can inhibit the growth of various cancer types (including breast and prostate) by attacking abnormal cells similarly to parasitic cells.
+        <strong>WORMWOOD:</strong> Research shows Artemisinin disrupts cancer cell mitochondria and can inhibit growth of breast and prostate cancer types by attacking cells similarly to how it attacks parasitic cells.
     </div>
     <div class="research-box">
-        <strong>CLOVES (Eugenol):</strong> Eugenol is documented to have powerful antiparasitic activity. In oncology research, it has demonstrated the ability to induce cancer cell death and inhibit metastasis (the spread of cancer cells).
+        <strong>CLOVES:</strong> Eugenol has demonstrated antiparasitic activity and the ability to induce cancer cell death and inhibit metastasis in several cancer lines.
     </div>
     <div class="research-box">
-        <strong>BLACK WALNUT (Juglone):</strong> Laboratory and animal studies verify that Juglone possesses potent antiparasitic and anticancer properties, with significant activity noted against lung, liver, pancreatic, and colon cancer lines.
+        <strong>BLACK WALNUT:</strong> Juglone possesses potent antiparasitic and anticancer properties, studied across lung, liver, pancreatic, and colon cancers.
     </div>
 
     <div class="history-section">
-        <h2>9. History of Suppression & Money</h2>
+        <h2>8. HISTORY OF SUPPRESSION & MONEY</h2>
         <div class="money-trail">
-            <div class="money-card"><strong>The Opponents:</strong> FDA and FTC targeted the protocol because natural herbs cannot be patented for high-profit margins.</div>
-            <div class="money-card"><strong>The Conflict:</strong> Low-cost herbal treatments are a direct threat to the massive revenue models of chemotherapy.</div>
-            <div class="money-card"><strong>The Refuge:</strong> Under legal pressure, the primary research for this protocol was moved to Mexico to bypass restrictive US regulations.</div>
+            <div class="money-card"><strong>The Opponents:</strong> Agencies like the FDA and FTC targeted the protocol because natural herbs cannot be patented for profit.</div>
+            <div class="money-card"><strong>The Conflict:</strong> A $100 herbal treatment threatens the revenue of chemotherapy which costs thousands per dose.</div>
+            <div class="money-card"><strong>The Refuge:</strong> Under legal pressure in the US, Dr. Clark moved operations to Tijuana, Mexico, to continue her research.</div>
+            <div class="money-card"><strong>The Funding:</strong> This work was funded entirely by "Self-Health" books and private clinics, bypassing corporate grants to remain independent.</div>
         </div>
     </div>
 
     <div class="safety-box">
         <h3>⚠️ THE SAFETY PROTOCOL</h3>
-        <p>This is a "shock" treatment. After Day 6, stop all herbs for 10-14 days. If tremors or dizziness occur, stop the Wormwood immediately. Theoretical research only.</p>
+        <p>This is a "shock" treatment. After Day 6, stop all herbs for 10-14 days. If you experience involuntary muscle tremors or severe dizziness, stop the Wormwood immediately. This archive is for theoretical and historical research purposes only.</p>
     </div>
 </div>
 
